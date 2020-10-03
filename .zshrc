@@ -3,7 +3,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/sergey/.oh-my-zsh"
-
+export EDITOR=/usr/bin/nvim
+export BROWSER=/usr/bin/vivaldi
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -102,9 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias perfomance_laptop="echo 0 > /proc/sys/vm/laptop_mode"
-alias save_battery="echo 5 > /proc/sys/vm/laptop_mode"
-alias normal_battery="echo 2 > /proc/sys/vm/laptop_mode"
+alias open="xdg-open"
+alias vim="nvim"
  autoload -U compinit && compinit
  if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
