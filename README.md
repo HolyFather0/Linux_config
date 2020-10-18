@@ -11,4 +11,5 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
-7) ```source .zshrc```
+7) Install fzf ```git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf ~/.fzf/install```
+8) ```source .zshrc```
